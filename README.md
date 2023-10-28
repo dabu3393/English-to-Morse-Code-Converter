@@ -24,30 +24,24 @@ https://github.com/dabu3393/English-to-Morse-Code-Converter/assets/97137252/4cb1
 
 ## Getting Started
 
-The PDF to Audiobook Converter is a user-friendly Python application that enables users to effortlessly transform PDF documents into audio files. It serves as a handy tool for converting text-based content from PDFs into MP3 audio files, effectively creating audiobooks that are accessible on the go.
+The Morse Code Converter is a Python application that allows users to easily translate text messages between Morse code and English. It provides a straightforward and intuitive command-line interface for performing these conversions.
 
 ## Key Features
 
-- **User-Friendly Interface**: The application offers a simple and intuitive graphical user interface, making it easy for users to select PDF files and convert them into audiobooks with just a few clicks.
+- **Morse to English and English to Morse Conversion**: The application supports two-way conversion, allowing users to translate messages from Morse code to English or vice versa.
 
-- **Seamless PDF Selection**: Users can select the PDF file they wish to convert using a built-in file dialog. The chosen PDF file is displayed on the interface for easy reference.
+- **Interactive Interface**: The program provides an interactive experience where users can input their messages and get the conversion results in real-time.
 
-- **Google Cloud Text-to-Speech**: The converter leverages the power of the Google Cloud Text-to-Speech API to synthesize high-quality audio from the text content extracted from the PDF.
-
-- **Customizable Audiobooks**: The application allows users to choose from a variety of voice options, languages, and audio encoding settings to customize their audiobooks according to their preferences.
-
-- **Download to Local Directory**: The resulting MP3 audiobook is saved in the user's local "Downloads" directory for convenient access.
-
-- **Clear User Feedback**: The application provides clear feedback about the conversion process and displays a success message upon the successful creation of the audiobook.
+- **Clear Display**: The application displays the converted messages in a clear and readable format, making it easy for users to understand the translation.
 
 ## Usage
 
-1. Open the application.
-2. Click the "Select PDF" button to choose a PDF file for conversion.
-3. Click the "Convert" button to start the conversion process.
-4. The resulting audiobook is saved to your local "Downloads" directory.
+1. Run the application by executing the script.
+2. Choose the type of conversion you want to perform by typing the corresponding number (1 for Morse to English, 2 for English to Morse).
+3. Follow the on-screen prompts to input your message.
+4. The application will display the converted message.
 
 ## Required Downloads
 I have included a requirements.txt, which you should download in your virtual environment.
 
-[Requirements](https://github.com/dabu3393/Convert-PDF-to-Audiobook/blob/main/requirements.txt)
+[Requirements](https://github.com/dabu3393/English-to-Morse-Code-Converter/blob/main/requirements.txt)
